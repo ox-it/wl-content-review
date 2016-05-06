@@ -414,6 +414,14 @@ public interface ContentReviewService {
 	public ContentReviewItem getFirstItemByContentId(String contentId);
 	
 	/**
+	 * Get the first ContentReviewItem that matches the param
+	 *
+	 * @param id
+	 * @return
+	 */
+	public ContentReviewItem getFirstItemByExternalId(String externalId);
+
+	/**
 	 * Sets the url as accessed for a submission content
 	 * 
 	 * @param contentId
